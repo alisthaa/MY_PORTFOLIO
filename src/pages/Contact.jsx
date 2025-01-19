@@ -40,7 +40,7 @@ export default function Contact() {
       <div className="container relative">
         <div className="absolute mt-14 md:mt-32">
           <h1 className="text-4xl font-bold text-blue-400 text-center mb-16">Contact Me</h1>
-          <div className="flex flex-wrap gap-6 md:gap-96 text-white">
+          <div className="flex justify-center flex-wrap gap-6 md:gap-96 text-white">
             <div className="flex flex-col gap-4 md:gap-10 md:mt-10">
               <p className="flex items-center gap-2 text-sm md:text-lg font-Lora">
                 <CgMail /> alisthashrestha@gmail.com
