@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".", // Base directory for resolving paths
+      "paths": {
+        "@/*": ["src/*"] // Alias '@' to point to the 'src' folder
+      }
+    }
+  }
+  
