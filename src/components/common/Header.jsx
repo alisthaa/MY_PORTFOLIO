@@ -20,7 +20,7 @@ export default function Header() {
 
   const handleCloseDropdown = () => setIsOpen(false);
   return (
-    <header className="bg-primary text-white drop-shadow-[0_4px_6px_rgba(255,255,255,0.5)] fixed min-w-full ">
+    <header className="bg-gray-800 text-white drop-shadow-[0_4px_6px_rgba(255,255,255,0.5)] fixed min-w-full z-10 ">
       <nav className="container mx-auto flex items-center justify-between py-3 md:py-6">
     
         <NavigationMenu>
@@ -40,9 +40,9 @@ export default function Header() {
             <GiHamburgerMenu />
           </DropdownMenuTrigger>
           {isOpen && (
-            <DropdownMenuContent>
+            <DropdownMenuContent className='bg-gray-200'>
               <DropdownMenuLabel>Menu</DropdownMenuLabel>
-              <DropdownMenuSeparator />
+              <DropdownMenuSeparator className='bg-gray-400'/>
               <DropdownMenuItem onClick={handleCloseDropdown}>
                 <Link
                   to="/"
