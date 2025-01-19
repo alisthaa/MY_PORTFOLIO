@@ -13,7 +13,7 @@ export default function About() {
 
   return (
     <div className="bg-gray-900 text-white min-h-screen p-8">
-      <div className="max-w-4xl mx-auto space-y-12 mt-3 md:mt-20">
+      <div className="max-w-4xl mx-auto space-y-12 mt-6 md:mt-20">
         {/* About Section */}
         <div className="text-center">
           <h1 className="text-4xl font-bold text-blue-400">About Me</h1>
